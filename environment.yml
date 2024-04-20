@@ -1,0 +1,18 @@
+name: formula1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - altair
+  - vega_datasets
+  - ipykernel
+  - geopandas
+  - pip=24.0
+  - pip:
+      - plotly==5.20.0
+      - plotly-express==0.4.1
+      - nbformat==5.10.4
+      - streamlit==1.33.0
+prefix: /Users/farrandi/miniconda3/envs/formula1
