@@ -1,6 +1,6 @@
 altair==5.2.*
 altair_tiles==0.3.*
-streamlit==1.1.*
+streamlit==1.33.*
 gunicorn==21.2.*
 jsonschema==4.21.*
 pandas==2.2.*
