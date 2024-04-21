@@ -11,12 +11,12 @@ END_YEAR = 2023
 # Load data
 @st.cache_data
 def get_circuit_data():
-    return pd.read_csv("../data/processed/circuits.csv")
+    return pd.read_csv("data/processed/circuits.csv")
 
 
 @st.cache_data
 def get_driver_data():
-    return pd.read_csv("../data/processed/drivers.csv")
+    return pd.read_csv("data/processed/drivers.csv")
 
 
 # Helper functions
